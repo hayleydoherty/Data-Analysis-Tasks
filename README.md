@@ -43,7 +43,7 @@ The aim of this task was to use NumPy to create data sets that demonstrate Simps
 
 To demonstrate Simpson's Paradox, four data sets were created that when graphed each showed a positive correlation however when the groups were combined into one large data set, the trend was reversed.
 
-
+![SimpsonsParadox](https://user-images.githubusercontent.com/60262898/102015089-53a68780-3d51-11eb-9a4c-87dbda76fd58.png)
                     
 
 
