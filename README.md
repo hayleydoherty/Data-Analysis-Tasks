@@ -33,6 +33,8 @@ The code used to simulalte flipping a coin is show below. An empty list called c
 ```
 When the for loop is finished the count list will contain 1000 numbers each representing the number of times heads landed face up out of 100 coin flips. To view this graphically, matplot.lib is used to create a histogram. I follows a rough bell-shaped curve, as expected, with a mean value of 50 sugesting most of the 100 coin flips resulted in 50 heads and 50 tails landing face up.
 
+![CoinFlips](https://user-images.githubusercontent.com/60262898/101989087-e1bd3800-3c95-11eb-9f64-a6356b230a20.png)
+
 
 
 ### Task 4: Simpson's Paradox
