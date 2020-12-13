@@ -18,6 +18,8 @@ The code used to create this function consists of a for loop containing an if st
 ```
 Above is the code used for the counts function. The empty 'freq' dictionary must be created first so that when an item is encountered the if statment can add 1 to its frequency and store it in the dictionary wehere it can be called again if the item is encountered in the list again.
 
+
+
 ### Task 3: Coin Flip
 ---
 This task involved writing Python code that simulates flipping a coin 100 times, running the code 1000 times to produce 1000 results for the number of times heads landed face up out of the 100 coin flips. Then plot the results showing that they roughly follow a bell-shaped curve. 
@@ -30,6 +32,28 @@ The code used to simulalte flipping a coin is show below. An empty list called c
                             count.append(y)
 ```
 When the for loop is finished the count list will contain 1000 numbers each representing the number of times heads landed face up out of 100 coin flips. To view this graphically, matplot.lib is used to create a histogram. I follows a rough bell-shaped curve, as expected, with a mean value of 50 sugesting most of the 100 coin flips resulted in 50 heads and 50 tails landing face up.
+
+
+
+### Task 4: Simpson's Paradox
+---
+The aim of this task was to use NumPy to create data sets that demonstrate Simpson's Paradox. Simpson's Paradox is an occurence in probability and statistics in which a trend that appears in several groups is reversed or disappears when the groups are combined. Simpson's Paradox is not technically a paradox, rather a feature of combined data that is contrary to what you would expect, which emerges when causal inferences are drawn across different levels, i.e. from populations to subgroups. Another way to define the Simpson's Paradox is an event in which the correlation between two variables reverses or disappears when examining combined versus segregated data via a third variable. The third variable is sometimes called a confounding variable and is most often the cxause of the correlation among the variables. 
+
+To demonstrate Simpson's Paradox, four data sets were created that when graphed each showed a positive correlation however when the groups were combined into one large data set, the trend was reversed.
+
+
+                    
+
+
+
+
+
+
+
+
+
+
+
 
 
 
