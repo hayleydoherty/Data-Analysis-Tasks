@@ -20,6 +20,13 @@ Above is the code used for the counts function. The empty 'freq' dictionary must
 
 
 
+### Task 2: Dicerolls
+---
+The purpose of this task was to write a Python function that simulates rolling $k$ number of die, $n$ times with $k$ and $n$ input as parameters by the user. The function should return a dictionary with the total face value and the frequency with which that value appeared in the set number of rolls. 
+A for loop was used to implement this function, which simulated the rolling of the die to the number of times specified by the input parameter. Each time the function looped a number was generated between the max and min possible total face values for the specified number of die. An if statement was used to determine if the number had already been generated before, if so 1 was added to it to keep count of the number of times it appeared and if not it was added to the dictionary and was assigned with the frequency 1.
+The dictionay was then sorted and returned cotaining each total face value with the number of times it appeared.
+
+
 ### Task 3: Coin Flip
 ---
 This task involved writing Python code that simulates flipping a coin 100 times, running the code 1000 times to produce 1000 results for the number of times heads landed face up out of the 100 coin flips. Then plot the results showing that they roughly follow a bell-shaped curve. 
